@@ -1,0 +1,1 @@
+En este documento se podrán realizar validaciones para determinar si tres números suministrados por un usuario están repetidos o no. Asimismo, se ofrece la opción de organizar la lista de esos números.
