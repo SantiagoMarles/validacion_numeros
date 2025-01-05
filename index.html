@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Logica</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+   <header>
+    <h1 class="titulo">Bienvenido al probador de números</h1>
+    <p class="explicacion">Por favor ingresa un número en cada uno de los campos que se encuentran vacios y dale click en guardar número</p>
+   </header>
+
+    <main>
+        <form class="formulario">
+            <label for="numero_input">Pirmer Número:</label>
+            <input type="number" id="primer_numero" placeholder="Ingresa un numero">
+            <button class="boton" type="button" id="guardar_primero">Guardar Número</button>
+
+            <label for="numero_input">Segundo Número:</label>
+            <input type="number" id="segundo_numero" placeholder="Ingresa un numero">
+            <button class="boton" type="button" id="guardar_segundo">Guardar Número</button>
+
+            <label for="numero_input">Tercer Número:</label>
+            <input type="number" id="tercer_numero" placeholder="Ingresa un numero">
+            <button class="boton" type="button" id="guardar_tercero">Guardar Número</button>
+        </form>
+        
+        <section class="botones">
+            <button class="botonesAcciones" id="numero_repetido" onclick="seRepiten()">¿Se repiten?</button>
+            <button class="botonesAcciones" id="ordenar">Ordenar números</button>
+        </section>
+    </main>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
